@@ -1,0 +1,92 @@
+<!DOCTYPE html></!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>
+		LAB2 - EX. 18
+	</title>
+	<style >
+		body{
+		background-color: black
+	}
+		header{
+			color:white;
+			font-size: 40px;
+			text-align: center;
+		}
+		.rainbow{
+			height: 200px;
+            background: linear-gradient(10deg, red 5%, transparent 7%), 
+            			linear-gradient(15deg, orange 10%, transparent 12%),
+            			linear-gradient(25deg, yellow 15%, transparent 17%), 
+            			linear-gradient(35deg, green 20%, transparent 22%), 
+            			linear-gradient(45deg, blue 25%, transparent 27%), 
+            			linear-gradient(60deg, indigo 30%, transparent 32%), 
+            			linear-gradient(70deg, violet 35%, transparent 37%);
+		}
+		.divv {
+			position: relative;
+			width: 95vw;
+			height: 45vw;
+			overflow: hidden;
+			background: transparent;
+			transform: translate(-50vw, -5vw);
+			top: 8vw;
+			left: 50vw;
+			}
+		.divv:after {
+		  	position: absolute;
+		  	content: '';
+		  	width: 50%;
+		  	height: 100%;
+		  	top: 25vw;
+		  	left: 25vw;
+		  	border-radius: 50%;
+		  	box-shadow: 0 0 0 2vw violet, 0 0 0 4vw indigo, 0 0 0 6vw blue, 0 0 0 8vw green, 0 0 0 10vw yellow, 0 0 0 12vw orange, 0 0 0 14vw red;
+		}
+		body {
+			background-color: black;
+		  	margin: 0;
+		}
+		.red{
+			height: 10px;
+			background: linear-gradient(78deg, red 5%, transparent 7%);
+		}
+		.orange{
+			height:40px;
+			background:linear-gradient(6deg, orange 5%, transparent 7%);
+		}
+		.yellow{
+			height:10px;
+			background-color: yellow;
+		}
+		.green{
+			height:10px;
+			background-color: green;
+		}
+		.blue{
+			height:10px;
+			background-color: blue;
+		}
+		.indigo{
+			height:10px;
+			background-color: indigo;
+		}
+		.violet{
+			height:10px;
+			background-color: violet;
+		}
+	</style>
+</head>
+<body>
+	<!--<div class="red"></div>
+	<div class="orange"></div>
+	<div class="yellow"></div>
+	<div class="green"></div>
+	<div class="blue"></div>
+	<div class="indigo"></div>
+	<div class="violet"></div>-->
+	<div class="rainbow"></div>
+	<header>RAINBOW</header>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+    clip-path: polygon(0 20% 250% 190% 0% 210%);
+-->
+<head>
+    <meta charset="UTF-8">
+    <title>LAB 2 - 18</title>
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <style>
+        body{
+            background-color: gray
+        }
+        header{
+            color:white;
+            text-align: center;           
+            font-family: 'Anton', sans-serif;
+            font-size: 40px;
+        }
+        .rainbow{
+            position: relative;
+            top:150px;
+            height:150;
+            width: 400;
+            clip-path: polygon(0 60%, 100% 0, 100% 90%, 0 60%);
+            transform: rotate(12deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="rainbow">
+        <div style="background: linear-gradient(to bottom left, red , orange); height: 10px;"></div>
+        <div style="background: linear-gradient(to bottom left, orange, yellow); height: 11px;"></div>
+        <div style="background: linear-gradient(to bottom left, yellow, green); height: 12px;"></div>
+        <div style="background: linear-gradient(to bottom left, green, blue); height: 13px;"></div>
+        <div style="background: linear-gradient(to bottom right, blue, indigo); height: 14px;"></div>
+        <div style="background: linear-gradient(to bottom right, indigo, violet); height: 15px;"></div>
+    </div>
+    <header>RAINBOW</header>
+</body>

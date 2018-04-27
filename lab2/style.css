@@ -1,0 +1,31 @@
+div#flip{
+	-webkit-transform: rotate(270deg);
+}
+img { 
+	height: 200px;
+	width: 300px;
+	opacity: 0.5;
+
+}
+tr, td{
+	border	: 5px solid black;
+	padding: 10px;
+	
+}
+table {
+	height: 320px;
+}
+
+img:hover{
+		opacity: 1 ;
+}
+
+
+#rainbow {
+  height: 200px;
+  width:100%;
+  -webkit-transform:rotate(10deg);
+	margin-top: 180px;
+  background: linear-gradient(78deg, red 5%, transparent 7%), linear-gradient(69deg, orange 10%, transparent 12%), linear-gradient(60deg, yellow 15%, transparent 17%), linear-gradient(51deg, green 20%, transparent 22%), linear-gradient(43deg, blue 25%, transparent 27%), linear-gradient(35deg, indigo 30%, transparent 32%), linear-gradient(28deg, violet 35%, transparent 37%);
+}
+
