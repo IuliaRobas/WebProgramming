@@ -1,0 +1,42 @@
+entry {
+	display: block;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+category {
+	display: inline-block;
+	width: 15%;
+	background-color: rgb(66, 69, 244);
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+title {
+	display: inline-block;
+	width: 55%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+author {
+	display: inline-block;
+	width: 15%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;	
+	padding-right: 5px;
+}
+
+year {
+	display: inline-block;
+	width: 5%;
+	border-left-style: solid;
+	border-left-width: 1px;	
+	padding-left: 5px;
+	padding-right: 5px;
+}

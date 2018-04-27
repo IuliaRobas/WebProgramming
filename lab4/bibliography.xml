@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--encoding sth with iso for IE?-->
+<!--use IE for XSL-->
+<?xml-stylesheet type="text/xsl" href="bibliographyBS.xsl"?>
+<!--<?xml-stylesheet type="text/css" href="bibliography.css"?>-->
+<bibliography>
+	
+	<entry>
+		<category>Article</category>
+		<title>Elon Musk, the Rocket Man With a Sweet Ride</title>
+		<author>Carl Hoffmany</author>
+		<year>2012</year>
+	</entry>
+
+	<entry>
+		<category>Book Report</category>
+		<title>Some Book Report Title</title>
+		<author>Some Book Report Author</author>
+		<year>1900</year>
+	</entry>
+
+	<entry>
+		<category>Presentation</category>
+		<title>How to tame your wandering mind</title>
+		<author>Amishi Jha</author>
+		<year>2018</year>
+	</entry>
+
+	<entry>
+		<category>Web Entry</category>
+		<title>Some Web Entry Title</title>
+		<author>Some Web Entry Author</author>
+		<year>2012</year>
+	</entry>
+
+	<entry>
+		<category>Software Package</category>
+		<title>Microsoft Office</title>
+		<author>Microsoft Corporation</author>
+		<year>2016</year>
+	</entry>
+
+</bibliography>
